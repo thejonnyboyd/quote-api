@@ -1,13 +1,15 @@
 package com.thejonnyboyd.quoteapi.service;
 
+import com.thejonnyboyd.quoteapi.exception.QuoteNotFoundException;
 import com.thejonnyboyd.quoteapi.model.Quote;
+import com.thejonnyboyd.quoteapi.repository.QuoteRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Random;
 
 @Service
-public class QuoteServiceImplementation {
+public class QuoteServiceImplementation implements QuoteService{
 
     private final QuoteRepository quoteRepository;
     private final Random random = new Random();
