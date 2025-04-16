@@ -1,0 +1,22 @@
+# IntelliJ project files
+.idea/
+*.iml
+
+# Maven build output
+/target/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Java class files
+*.class
+
+# Local environment variables
+.env
+
+# Mac-specific
+__MACOSX/
