@@ -16,6 +16,11 @@ public class Quote {
         //default constructor
     }
 
+    public Quote(String text, String author){
+        this.text = text;
+        this.author = author;
+    }
+
     public Quote(Long id, String text, String author) {
         this.id = id;
         this.text = text;
